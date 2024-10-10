@@ -8,13 +8,18 @@
     <script src="./main.js" defer></script>
 </head>
 <body>
-    <div class="add-book">
-        <button class="add">
-            add
-        </button>
-    </div>
-    <div class="library-grid">
-
+    <div class="container">
+        <form>
+            <label for="book-title">Title: </label>
+            <input type="text" id="book-title" name="book-title">
+            <label for="book-author">Author: </label>
+            <input type="text" id="book-author" name="book-author">
+            <label for="book-pages">Pages: </label>
+            <input type="number" id="book-pages" name="book-pages">
+            <button type="button" id="addBtn">Submit</button>
+        </form>
+        <div class="library-grid">
+        </div>
     </div>
 </body>
 </html>
